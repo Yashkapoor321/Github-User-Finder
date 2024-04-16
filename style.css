@@ -1,0 +1,112 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.container{
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border: 3px solid black;
+  width: 600px;
+}
+body{
+  background-color: aliceblue;
+}
+
+  #search{  
+   padding-left: 15px;
+   border: 1px solid grey;
+   width: 600px;
+   height: 30px; 
+ 
+  background-color: aliceblue;
+ } 
+ #searchBtn{
+  height: 30px;
+  width: 100px;
+  background-color: aliceblue;
+ font-weight: bolder;
+ }
+
+  #result {
+    width: 90%;
+    height: 700vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+  }
+  
+  .user-card {
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #1f211f44, #484f7a);
+    position: relative;
+  }
+  
+  .user-card img {
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  
+  .user-card h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  
+  
+  .user-card a {
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+  .user-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .user-card .joined {
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: right;
+  }
+  
+  .user-card .fa-map-marked-alt {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .user-card span {
+    font-size: 14px;
+   
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .user-card p {
+    font-size: 14px;
+    
+    margin-top: 5px;
+    text-align: right;
+  }
+  
+  .close-button {
+    padding: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
